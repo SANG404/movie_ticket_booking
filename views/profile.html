@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Profile Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #868181;
+        padding: 10px 20px;
+      }
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+      }
+      .navbar .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .navbar .profile-icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .profile-container {
+        padding: 20px;
+      }
+      .profile-header {
+        display: flex;
+        align-items: center;
+      }
+      .profile-header img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      .profile-header h2 {
+        margin: 0;
+      }
+      .profile-details {
+        margin-top: 20px;
+      }
+      .profile-details p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="home.html" class="logo">Movie Ticket Booking</a>
+      <a href="#">
+        <img
+          src="/images/profile-icon.png"
+          alt="Profile"
+          class="profile-icon"
+        />
+      </a>
+    </nav>
+    <div class="profile-container">
+      <div class="profile-header">
+        <img src="/images/profile-icon.png" alt="Profile Picture" />
+        <h2>User Name</h2>
+      </div>
+      <div class="profile-details">
+        <h3>Profile Information</h3>
+        <p><strong>Email:</strong> user@example.com</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Address:</strong> 123 Main St, Anytown, USA</p>
+      </div>
+    </div>
+  </body>
+</html>

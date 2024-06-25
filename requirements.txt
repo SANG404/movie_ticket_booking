@@ -1,0 +1,135 @@
+To accommodate the three distinct modules (User, Admin, Superadmin), the functionalities can be divided as follows:
+
+### User Functionalities
+
+1. *User Registration*
+   - Sign up with name, email, password, and phone number.
+   - Email verification for account activation.
+
+2. *User Login*
+   - Log in using registered email and password.
+   - Secure authentication with JWT.
+
+3. *Profile Management*
+   - View and update personal information.
+   - Change password functionality.
+
+4. *Browsing Movies*
+   - View movies categorized as "Now Showing" and "Coming Soon."
+   - Filter movies by genre, release date, and rating.
+   - Search movies by title.
+
+5. *Viewing Movie Details*
+   - Access detailed movie information (synopsis, cast, duration, rating).
+   - View trailers and posters.
+
+6. *Showtime Selection*
+   - View available showtimes for a selected movie.
+   - Select preferred showtime and theater location.
+
+7. *Seat Selection*
+   - View theater seating layout.
+   - Select seats from available options.
+   - Real-time seat availability updates.
+
+8. *Booking Tickets*
+   - Review selected showtime and seats before booking.
+   - Proceed to payment via Stripe or PayPal.
+   - Receive booking confirmation and e-ticket via email.
+
+9. *Booking History*
+   - View past bookings.
+   - Access details of each booking (movie, showtime, theater, seats).
+   - Option to download or print e-tickets.
+
+10. *Logout*
+    - Securely log out from the system.
+
+### Admin Functionalities
+
+1. *Admin Login*
+   - Secure login using admin credentials.
+   - Access to management tools.
+
+2. *Dashboard*
+   - Overview of key metrics (total movies, total bookings, revenue).
+   - Quick access to management sections.
+
+3. *Movie Management*
+   - Add new movies to the database.
+   - Update existing movie details.
+   - Delete movies from the database.
+
+4. *Showtime Management*
+   - Schedule new showtimes.
+   - Update or cancel existing showtimes.
+   - Assign movies to theaters and time slots.
+
+5. *Theater Management*
+   - Manage theater details (name, location, seating capacity).
+   - Update seating layouts and configurations.
+
+6. *User Management*
+   - View list of registered users.
+   - Update user information or deactivate user accounts.
+
+7. *Booking Management*
+   - View and manage bookings.
+   - Generate booking reports by date, movie, or theater.
+   - Handle booking cancellations and refunds.
+
+8. *Reports and Analytics*
+   - Generate and view reports on bookings, revenue, user activity.
+   - Analyze trends in movie popularity and booking patterns.
+   - Export reports for further analysis.
+
+9. *Notification Management*
+   - Send notifications to users about new movies, special offers, or booking confirmations.
+   - Manage email templates for automated notifications.
+
+10. *Logout*
+    - Securely log out from the admin panel.
+
+### Superadmin Functionalities
+
+1. *Superadmin Login*
+   - Secure login using superadmin credentials.
+   - Access to all admin functionalities plus superadmin-specific tools.
+
+2. *Dashboard*
+   - Comprehensive overview of all key metrics across all theaters.
+   - Access to admin and superadmin functionalities.
+
+3. *Admin Management*
+   - Add and manage admin accounts.
+   - Assign roles and permissions to admins.
+   - Deactivate or delete admin accounts.
+
+4. *Global Settings Management*
+   - Manage system-wide settings and configurations.
+   - Update payment gateway settings and other integrations.
+
+5. *Theater Chain Management*
+   - Oversee multiple theaters in different locations.
+   - Manage details and configurations of each theater chain.
+
+6. *Advanced Reports and Analytics*
+   - Access to detailed analytics across all theaters and admins.
+   - Generate and export complex reports on various metrics.
+
+7. *Audit Logs*
+   - View detailed logs of actions performed by users and admins.
+   - Monitor security and compliance.
+
+8. *Critical Notifications Management*
+   - Send critical notifications and alerts across all theaters.
+   - Manage templates for system-wide notifications.
+
+9. *System Maintenance*
+   - Schedule and perform system maintenance tasks.
+   - Monitor system health and performance.
+
+10. *Logout*
+    - Securely log out from the superadmin panel.
+
+By delineating these functionalities, each user type has clear and specific access to features and management tools appropriate to their role, ensuring a well-structured and efficient system.
